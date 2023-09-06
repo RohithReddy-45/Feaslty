@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+    <title>Feastly</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <ion-icon class="feastly-icon" name="fast-food-outline"></ion-icon>
+        <a href="#">Feastly</a>
+      </div>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#section-1">Home</a></li>
+          <li><a class="main-nav-link" href="#section-2">About</a></li>
+          <li><a class="main-nav-link" href="#section-3">Menu</a></li>
+          <li><a class="main-nav-link" href="#section-4">Team</a></li>
+          <li><a class="main-nav-link" href="#section-5">Contact</a></li>
+          <li><a class="main-nav-link btn btn-order" href="#">Order now</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="mobile-icon-nav" name="menu"></ion-icon>
+        <ion-icon class="mobile-icon-nav" name="close"></ion-icon>
+      </button>
+    </header>
+    <section class="hero-section" id="section-1">
+      <div class="hero">
+        <div class="hero-text-box">
+          <h1 class="heading-primary">
+            Discover Delicious Dining at <span>Feastly</span>
+          </h1>
+          <p class="hero-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            ipsam accusantium eius repudiandae commodi delectus tempora eum
+            sunt. Aspernatur molestiae eaque consectetur labore voluptatibus ab
+            illum! Veniam pariatur quos.
+          </p>
+          <a href="#section-2" class="btn btn-explore">Explore more &darr;</a>
+        </div>
+        <div class="hero-img-box">
+          <picture>
+            <source srcset="img/hero.webp" type="image/webp" />
+            <img src="img/hero.png" class="hero-img" alt="Food in a bowl" />
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section" id="section-2">
+      <div class="about">
+        <picture>
+          <source srcset="img/about.webp" type="image/webp" />
+          <img
+            src="img/about.jpg"
+            alt="women enjoying food"
+            class="about-img"
+          />
+        </picture>
+        <div class="about-text">
+          <h2>About</h2>
+          <h1>The Feastly</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum ea
+            cumque impedit iusto blanditiis magnam nisi, reiciendis accusantium,
+            odio facere nihil quae nobis sint at, fugit beatae animi. A, alias.
+            Lorem ipsum dolor sit, amet consectetur.
+          </p>
+          <a href="#section-3" class="btn btn-menu">View menu</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section" id="section-3">
+      <div class="menu">
+        <h1>Menu</h1>
+        <div class="all-menu-items">
+          <div class="menu-items">
+            <picture>
+              <source srcset="img/menu-1.webp" type="image/webp" />
+              <img src="img/menu-1.jpg" alt="food" class="menu-img" />
+            </picture>
+
+            <div class="menu-text">
+              <h2>Fruit salad</h2>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <div class="menu-item-rating">
+                <svg
+                  class="star-icon"
+                  class="w-6 h-6 text-gray-800 dark:text-white"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 21 20"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m11.479 1.712 2.367 4.8a.532.532 0 0 0 .4.292l5.294.769a.534.534 0 0 1 .3.91l-3.83 3.735a.534.534 0 0 0-.154.473l.9 5.272a.535.535 0 0 1-.775.563l-4.734-2.49a.536.536 0 0 0-.5 0l-4.73 2.487a.534.534 0 0 1-.775-.563l.9-5.272a.534.534 0 0 0-.154-.473L2.158 8.48a.534.534 0 0 1 .3-.911l5.294-.77a.532.532 0 0 0 .4-.292l2.367-4.8a.534.534 0 0 1 .96.004Z"
+                  />
+                </svg>
+                <p>4.9 rating (654)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-items">
+            <picture>
+              <source srcset="img/menu-2.webp" type="image/webp" />
+              <img src="img/menu-2.jpg" alt="food" class="menu-img" />
+            </picture>
+
+            <div class="menu-text">
+              <h2>Double burger</h2>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <div class="menu-item-rating">
+                <svg
+                  class="star-icon"
+                  class="w-6 h-6 text-gray-800 dark:text-white"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 21 20"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m11.479 1.712 2.367 4.8a.532.532 0 0 0 .4.292l5.294.769a.534.534 0 0 1 .3.91l-3.83 3.735a.534.534 0 0 0-.154.473l.9 5.272a.535.535 0 0 1-.775.563l-4.734-2.49a.536.536 0 0 0-.5 0l-4.73 2.487a.534.534 0 0 1-.775-.563l.9-5.272a.534.534 0 0 0-.154-.473L2.158 8.48a.534.534 0 0 1 .3-.911l5.294-.77a.532.532 0 0 0 .4-.292l2.367-4.8a.534.534 0 0 1 .96.004Z"
+                  />
+                </svg>
+                <p>4.8 rating (545)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-items">
+            <picture>
+              <source srcset="img/menu-3.webp" type="image/webp" />
+              <img src="img/menu-3.jpg" alt="food" class="menu-img" />
+            </picture>
+            <div class="menu-text">
+              <h2>Bibimbap</h2>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <div class="menu-item-rating">
+                <svg
+                  class="star-icon"
+                  class="w-6 h-6 text-gray-800 dark:text-white"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 21 20"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m11.479 1.712 2.367 4.8a.532.532 0 0 0 .4.292l5.294.769a.534.534 0 0 1 .3.91l-3.83 3.735a.534.534 0 0 0-.154.473l.9 5.272a.535.535 0 0 1-.775.563l-4.734-2.49a.536.536 0 0 0-.5 0l-4.73 2.487a.534.534 0 0 1-.775-.563l.9-5.272a.534.534 0 0 0-.154-.473L2.158 8.48a.534.534 0 0 1 .3-.911l5.294-.77a.532.532 0 0 0 .4-.292l2.367-4.8a.534.534 0 0 1 .96.004Z"
+                  />
+                </svg>
+                <p>4.5 rating (234)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-items">
+            <picture>
+              <source srcset="img/menu-4.webp" type="image/webp" />
+              <img src="img/menu-4.jpg" alt="food" class="menu-img" />
+            </picture>
+            <div class="menu-text">
+              <h2>Noodle soup</h2>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <div class="menu-item-rating">
+                <svg
+                  class="star-icon"
+                  class="w-6 h-6 text-gray-800 dark:text-white"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 21 20"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m11.479 1.712 2.367 4.8a.532.532 0 0 0 .4.292l5.294.769a.534.534 0 0 1 .3.91l-3.83 3.735a.534.534 0 0 0-.154.473l.9 5.272a.535.535 0 0 1-.775.563l-4.734-2.49a.536.536 0 0 0-.5 0l-4.73 2.487a.534.534 0 0 1-.775-.563l.9-5.272a.534.534 0 0 0-.154-.473L2.158 8.48a.534.534 0 0 1 .3-.911l5.294-.77a.532.532 0 0 0 .4-.292l2.367-4.8a.534.534 0 0 1 .96.004Z"
+                  />
+                </svg>
+                <p>4.9 rating (455)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="all-recipes">
+        <a href="#" class="link">See all recipes &rarr;</a>
+      </div>
+    </section>
+
+    <section class="team-section" id="section-4">
+      <div class="team-text">
+        <h2>Our team</h2>
+        <p>
+          Lorem ipsum dolor sit amet consecteturcumque<br />
+          impedit iusto blanditiis magnam nisi, reiciendis accusantium.
+        </p>
+      </div>
+
+      <div class="all-team-members">
+        <div class="team-member">
+          <picture>
+            <source srcset="img/chef-1.webp" type="image/webp" />
+            <img src="img/chef-1.jpg" alt="chef" class="chef-img" />
+          </picture>
+
+          <div class="team-mem-desc">
+            <h2>Jeffrey brown</h2>
+            <p>Sushi Chef</p>
+          </div>
+        </div>
+
+        <div class="team-member">
+          <picture>
+            <source srcset="img/chef-2.webp" type="image/webp" />
+            <img src="img/chef-2.jpg" alt="chef" class="chef-img" />
+          </picture>
+          <div class="team-mem-desc">
+            <h2>Stive larson</h2>
+            <p>Executive Chef</p>
+          </div>
+        </div>
+
+        <div class="team-member">
+          <picture>
+            <source srcset="img/chef-3.webp" type="image/webp" />
+            <img src="img/chef-3.jpg" alt="chef" class="chef-img" />
+          </picture>
+          <div class="team-mem-desc">
+            <h2>Alex greenfield</h2>
+            <p>Head Pastry Chef</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="section-5">
+      <div class="contact">
+        <div class="contact-container">
+          <div class="contact-left">
+            <h1>Ready to get started?</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet
+              ert consectetur <br />
+              elit Minima ipsam accusantium eius repudiandae commodi delectus
+              Lorem ipsum <br />
+              dolor sit amet consectetur adipisicing elit
+            </p>
+
+            <form class="form-section" name="sign-up" netlify>
+              <div class="inputbox">
+                <input type="text" required="required" name="full-name" />
+                <span>Full name</span>
+              </div>
+
+              <div class="inputbox">
+                <input type="text" required="required" name="email" />
+                <span>Email</span>
+              </div>
+              <div class="inputbox">
+                <input type="password" required="required" name="password" />
+                <span>Password</span>
+              </div>
+              <!-- <a href="#" class="btn-signup">Sign up now</a> -->
+              <button class="btn-signup">Sign up now</button>
+            </form>
+          </div>
+
+          <div
+            class="contact-image"
+            role="img"
+            aria-label="Woman enjoying food"
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container grid--footer">
+        <div class="logo-col">
+          <h1>Feastly</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; 2023 by Feastly, Inc. All rights reserved.
+          </p>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Services</a></li>
+            <li><a class="footer-link" href="#">Menu</a></li>
+            <li><a class="footer-link" href="#">About us</a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+          </ul>
+        </nav>
+
+        <nav class="address-col">
+          <p class="footer-heading">Contact</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">+123 456 789</a></li>
+            <li><a class="footer-link" href="#">www.feastly.com</a></li>
+            <li><a class="footer-link" href="#">feastly@gmail.com</a></li>
+            <li>
+              <a class="footer-link" href="#"
+                >2715 Ash Dr. San Jose, South Dakota 83475</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Recipe directory </a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+            <li><a class="footer-link" href="#">FAQ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
