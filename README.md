@@ -1,2 +1,2 @@
 # Feaslty
-The Feastly restaurant website using HTML,CSS,Javascript
+The Feastly responsive restaurant website using HTML,CSS,Javascript
